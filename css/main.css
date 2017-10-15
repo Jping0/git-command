@@ -1379,7 +1379,8 @@ pre .javascript .function {
 }
 
 .use-motion .brand {
-    opacity: 0;
+    /* opacity: 0; */
+    background: rgba(200, 200, 200, .3);
 }
 
 .use-motion .logo,
@@ -1452,6 +1453,7 @@ pre .javascript .function {
 
 .menu .menu-item a {
     display: block;
+    color: #ccc;
     font-size: 13px;
     line-height: inherit;
     border-bottom: 1px solid transparent;
@@ -1462,7 +1464,8 @@ pre .javascript .function {
 }
 
 .menu .menu-item a:hover {
-    border-bottom-color: #222;
+    color: #fff;
+    border-bottom-color: #666;
 }
 
 .menu .menu-item .fa {
