@@ -1148,8 +1148,8 @@ pre .javascript .function {
     padding: 0 20px;
     font-size: 14px;
     color: #fff;
-    background: #222;
-    border: 2px solid #222;
+    background: rgba(20, 20, 20, .7);
+    border: 2px solid rgba(20, 20, 20, .7);
     text-decoration: none;
     border-radius: 0;
     transition-property: background-color;
@@ -1162,7 +1162,7 @@ pre .javascript .function {
 .btn:hover {
     border-color: #222;
     color: #222;
-    background: #fff;
+    background: rgba(200, 200, 200, .3);
 }
 
 .btn+.btn {
@@ -1519,7 +1519,8 @@ pre .javascript .function {
 .use-motion .post-block,
 .use-motion .pagination,
 .use-motion .comments {
-    opacity: 0;
+    /* opacity: 0; */
+    background: rgba(200, 200, 200, .5);
 }
 
 .use-motion .post-header {
@@ -1758,7 +1759,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
     display: inline-block;
     position: relative;
-    color: #555;
+    color: #ddd;
     border-bottom: none;
     line-height: 1.2;
     vertical-align: top;
@@ -1771,7 +1772,7 @@ pre .javascript .function {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: #ddd;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
