@@ -1148,8 +1148,8 @@ pre .javascript .function {
     padding: 0 20px;
     font-size: 14px;
     color: #fff;
-    background: rgba(20, 20, 20, .7);
-    border: 2px solid rgba(20, 20, 20, .7);
+    background: rgba(20, 20, 20, .3);
+    border: 2px solid rgba(20, 20, 20, .2);
     text-decoration: none;
     border-radius: 0;
     transition-property: background-color;
@@ -1161,7 +1161,7 @@ pre .javascript .function {
 
 .btn:hover {
     border-color: #222;
-    color: #222;
+    color: #ddd;
     background: rgba(200, 200, 200, .3);
 }
 
@@ -1530,6 +1530,7 @@ pre .javascript .function {
 .use-motion .post-body {
     opacity: 0;
     color: #ddd;
+    text-align: center;
 }
 
 .use-motion .collection-title {
@@ -1761,6 +1762,8 @@ pre .javascript .function {
     display: inline-block;
     position: relative;
     color: #ddd;
+    background: rgba(20, 20, 20, .2);
+    padding: 5px;
     border-bottom: none;
     line-height: 1.2;
     vertical-align: top;
