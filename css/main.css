@@ -1348,12 +1348,14 @@ pre .javascript .function {
     display: inline-block;
     padding: 0 40px;
     color: #fff;
-    background: #222;
+    /* background: #222; */
+    background: rgba(200, 200, 200, .3);
     border-bottom: none;
 }
 
 .brand:hover {
     color: #fff;
+    background: rgba(200, 200, 200, .1);
 }
 
 .logo {
@@ -1379,8 +1381,7 @@ pre .javascript .function {
 }
 
 .use-motion .brand {
-    /* opacity: 0; */
-    background: rgba(200, 200, 200, .3);
+    opacity: 0;
 }
 
 .use-motion .logo,
