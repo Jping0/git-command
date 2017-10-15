@@ -1520,7 +1520,7 @@ pre .javascript .function {
 .use-motion .pagination,
 .use-motion .comments {
     /* opacity: 0; */
-    background: rgba(200, 200, 200, .5);
+    background: rgba(200, 200, 200, .2);
 }
 
 .use-motion .post-header {
@@ -1529,6 +1529,7 @@ pre .javascript .function {
 
 .use-motion .post-body {
     opacity: 0;
+    color: #ddd;
 }
 
 .use-motion .collection-title {
