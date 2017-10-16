@@ -389,7 +389,7 @@ hr {
 
 blockquote {
     padding: 0 15px;
-    color: #666;
+    color: #fff;
     border-left: 4px solid #ddd;
 }
 
@@ -612,7 +612,7 @@ pre,
     font-size: 13px;
     color: #fff;
     /* background: #f7f7f7; */
-    background: rgba(200, 200, 200, .5);
+    background: rgba(200, 200, 200, .3);
     line-height: 1.6;
 }
 
