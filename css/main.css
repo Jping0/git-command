@@ -355,7 +355,7 @@ p {
 }
 
 a {
-    color: #ddd;
+    color: #ccc;
     text-decoration: none;
     outline: none;
     border-bottom: 1px solid #999;
@@ -363,8 +363,8 @@ a {
 }
 
 a:hover {
-    color: #222;
-    border-bottom-color: #222;
+    color: #dfdfdf;
+    border-bottom-color: #fff;
 }
 
 blockquote {
