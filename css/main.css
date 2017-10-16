@@ -355,7 +355,7 @@ p {
 }
 
 a {
-    color: #555;
+    color: #ddd;
     text-decoration: none;
     outline: none;
     border-bottom: 1px solid #999;
@@ -1803,7 +1803,7 @@ pre .javascript .function {
 
 .posts-expand .post-meta {
     margin: 3px 0 60px 0;
-    color: #999;
+    color: #dfdfdf;
     font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
     font-size: 12px;
     text-align: center;
@@ -2343,7 +2343,7 @@ pre .javascript .function {
 
 .footer {
     font-size: 14px;
-    color: #999;
+    color: #dfdfdf;
 }
 
 .footer img {
